@@ -84,8 +84,8 @@ ReactDOM.render(<GrinchAll />,
 );
 
 const DiceRoll = () => {
-    const die1 = Math.floor(Math.random() * 7) + 1
-    const die2 = Math.floor(Math.random() * 7) + 1
+    const die1 = Math.floor(Math.random() * 6) + 1
+    const die2 = Math.floor(Math.random() * 6) + 1
     return <div>
         <h1>{die1} {die2}</h1>
     </div>
